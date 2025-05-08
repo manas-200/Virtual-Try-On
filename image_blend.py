@@ -59,7 +59,7 @@ def blend_images(person_image_path, clothing_image_path, api_key, prompt_text, o
 
             with open(full_output_path, "wb") as f:
                 f.write(data_buffer)
-            print(f"✅ Output saved to: {full_output_path}")
+            print(f"Output saved to: {full_output_path}")
 
             display_image(full_output_path, title="Blended Output")
 
