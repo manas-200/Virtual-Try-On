@@ -68,7 +68,7 @@ def blend_images(person_image_path, clothing_image_path, api_key, prompt_text, o
             print(part.text)
 
 def main():
-    API_KEY = "AIzaSyA7zAHjg1Tzafs2P0NIQ4qrhiIqprzHKrE"  
+    API_KEY = "**************************************"  
     image1_path = "human.jpg"   # Make sure image is in same directory 
     image2_path = "cloth.jpg"
 
